@@ -1,0 +1,18 @@
+[Main toolbar]
+icon_14=offline_and_lock.png
+item_0=40023 New project...
+item_1=40025 Open project...
+item_2=40026 Save project
+item_3=40021 Project settings...
+item_4=40029 Undo
+item_5=40030 Redo
+item_6=40364 Enable metronome
+item_7=40041 Enable auto-crossfade
+item_8=1156 Enable grouping
+item_9=1155 Enable ripple editing
+item_10=40070 Move envelope points with media items
+item_11=40145 Show arrange view grid
+item_12=1157 Enable snapping
+item_13=1135 Enable locking
+item_14=_S&M_CYCLACTION_1 Toggle Selected FX Offline + Lock
+

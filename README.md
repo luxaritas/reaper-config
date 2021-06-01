@@ -30,3 +30,12 @@ These can be imported via the color management dialog.
     - Purple: Vox
     - Red: Strings
     - Magenta: Synths
+
+## MenuSets
+[MenuSets] contains my custom menu layouts. These can be imported in the customize menus/toolbars dialog.
+- MainToolbar: Added offline and lock shortcut to the main toolbar
+
+## Toolbar Icons
+[ToolbarIcons] contains icons I've created for my custom toolbars. This is laid out just like
+the Data/toolbar_icons directory in the REAPER resource path (including rendered icons at all resolutions),
+except for the addition of the source directory which contains the source SVG files.
