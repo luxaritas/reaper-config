@@ -12,6 +12,24 @@ personal REAPER setup (both for my own records and in case someone else finds it
 [Reaticulate](https://reaticulate.com/)
 [js_ReaScriptAPI](https://forum.cockos.com/showthread.php?t=212174) (for Reaticulate)
 
+## Project Templates
+[ProjectTemplates] contains my templates I use when starting up a new project so that have instruments
+pre-loaded, articulation maps configured, routing and stemming handled, etc.
+- Main: My primary composing template. The setup takes inspiration from [Trevor Morris](https://www.youtube.com/watch?v=on0xJBTtMbI)
+  and [Christian Henson](https://www.youtube.com/watch?v=Cyh10tOuIKc) among others. Its organization
+  includes woodwinds, brass, strings, percussion, keys, voice, and synths. There is a set of mix stems
+  (doing some rough grouping, splitting out shorts vs longs, etc), delivery stems (which are much less in number),
+  and an FX bus for each delivery stem for reverb (which is routed to the delivery stems, but can
+  easily be disabled). Currently this template centers largely around BBCSO core, though I've slotted
+  in a couple of other libraries which I've acquired over time. All VSTs are offlined on loading the template
+  (easy on CPU/RAM and fast to boot), and it's designed to be able to easily slot in other libraries
+  with minimal need for additional setup for routing, etc.
+
+## Articulation Maps
+[ArticulationMaps] contains my reabank files used for Reaticulate. Some contents are pulled from
+official or user banks, but may be customized to suit my particular setup (particularly with how
+I do my track organization, routing, etc)
+
 ## Cycle Actions
 [SWS/S&M_Cycleactions.ini] contains my collection of shortcuts built with the SWS/S&M extension's
 cycle action feature. This file can be imported via the cycle action editor.
@@ -22,7 +40,7 @@ cycle action feature. This file can be imported via the cycle action editor.
 ## SWS Colors
 [SWS/Colors] contains color pallets built with the SWS/S&M extension's track color management.
 These can be imported via the color management dialog.
-- main: Primary color profile used to correspond to different instrument sections.
+- Main: Primary color profile used to correspond to different instrument sections.
     - Blue: Woodwinds
     - Yellow: Brass
     - Green: Keys
