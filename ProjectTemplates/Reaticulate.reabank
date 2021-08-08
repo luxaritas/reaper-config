@@ -64,62 +64,64 @@ Bank 0 3 Olympus Tenor
 Bank 0 4 Olympus Bass
 
 //----------------------------------------------------------------------------
-//! g="Soundiron/Olympus Choir Elements" n="Olympus Effects"
-Bank 0 5 Olympus Effects
+//! g="Soundiron/Olympus Choir Elements" n="Olympus Effects Men"
+Bank 0 5 Olympus Effects Men
 
-//! c=fx i=phrase o=note:95
-1 M: Falls
-//! c=fx i=phrase o=note:96
-2 M: H.Clstr
-//! c=fx i=phrase o=note:97
-3 M: Risers
-//! c=fx i=phrase o=note:98
-4 M: S.Clstr
-//! c=fx i=phrase o=note:99
-5 M: Shouts
-//! c=fx i=phrase o=note:100
-6 M: Clstr Ah
-//! c=fx i=phrase o=note:101
-7 M: Clstr Ee
-//! c=fx i=phrase o=note:102
-8 M: Clstr Eh
-//! c=fx i=phrase o=note:103
-9 M: Whispers
-//! c=fx i=phrase o=note:104
-10 M: Gliss
+//! c=fx i=phrase o=note@1:95
+2 Falls
+//! c=fx i=phrase o=note@1:97
+3 Risers
+//! c=fx i=phrase o=note@2:99
+4 Shouts
+//! c=fx i=phrase o=note@1:96
+7 Horror Clstr
+//! c=fx i=phrase o=note@1:98
+8 Shouts Clstr
+//! c=fx i=phrase o=note@1:100
+9 Clstr Ah
+//! c=fx i=phrase o=note@1:101
+10 Clstr Ee
+//! c=fx i=phrase o=note@1:102
+11 Clstr Eh
+//! c=fx i=phrase o=note@1:103
+17 Whispers
+//! c=fx i=phrase o=note@1:104
+18 Gliss
 
-//! spacer=1
-//! c=fx i=phrase o=note:105
-11 W: Drones
-//! c=fx i=phrase o=note:106
-12 W: Falls
-//! c=fx i=phrase o=note:107
-13 W: Risers
-//! c=fx i=phrase o=note:108
-14 W: Shouts
-//! c=fx i=phrase o=note:109
-15 W: Trills
-//! c=fx i=phrase o=note:110
-16 W: Up-Down
-//! c=fx i=phrase o=note:111
-17 W: Clstr Ah
-//! c=fx i=phrase o=note:112
-18 W: Clstr Ee
-//! c=fx i=phrase o=note:113
-19 W: Clstr Eh
-//! c=fx i=phrase o=note:114
-20 W: Clstr Ih
-//! c=fx i=phrase o=note:115
-21 W: Clstr Mm
-//! c=fx i=phrase o=note:116
-22 W: Clstr Oh
-//! c=fx i=phrase o=note:117
-23 W: Clstr Oo
-//! c=fx i=phrase o=note:118
-24 W: Clstr V.Morphs
-//! c=fx i=phrase o=note:119
-25 W: Whispers
+//----------------------------------------------------------------------------
+//! g="Soundiron/Olympus Choir Elements" n="Olympus Effects Women"
+Bank 0 6 Olympus Effects Women
 
+//! c=fx i=phrase o=note@1:105
+1 Drones
+//! c=fx i=phrase o=note@1:106
+2 Falls
+//! c=fx i=phrase o=note@1:107
+3 Risers
+//! c=fx i=phrase o=note@2:108
+4 Shouts
+//! c=fx i=phrase o=note@1:109
+5 Trills
+//! c=fx i=phrase o=note@1:110
+6 Up-Down
+//! c=fx i=phrase o=note@1:111
+9 Clstr Ah
+//! c=fx i=phrase o=note@1:112
+10 Clstr Ee
+//! c=fx i=phrase o=note@1:113
+11 Clstr Eh
+//! c=fx i=phrase o=note@1:114
+12 Clstr Ih
+//! c=fx i=phrase o=note@1:115
+13 Clstr Mm
+//! c=fx i=phrase o=note@1:116
+14 Clstr Oh
+//! c=fx i=phrase o=note@1:117
+15 Clstr Oo
+//! c=fx i=phrase o=note@1:118
+16 Clstr V.Morphs
+//! c=fx i=phrase o=note@1:119
+17 Whispers
 
 //============================================================================
 // BBCSO
