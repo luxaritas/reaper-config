@@ -18,7 +18,7 @@ Bank 0 0 Olympus Ensemble
 20 true legato
 //! c=legato i=legato o=cc@2:20,127
 21 simulated legato
-//! c=long i=note@17-whole o=cc@2:20,0
+//! c=long i=note-whole o=cc@2:20,0
 1 sustain
 //! c=long i=marcato o=@4
 9 marcato
@@ -124,6 +124,50 @@ Bank 0 6 Olympus Effects Women
 17 Whispers
 
 //============================================================================
+// Ratio
+//============================================================================
+
+//----------------------------------------------------------------------------
+//! g="Orchestral Tools/SINEfactory" n="Ratio"
+Bank 0 7 Ratio
+
+//! c=long i=note-whole o=note:0
+1 full sustains
+//! c=short i=staccato o=note:1
+2 full staccato
+
+//! spacer=1
+
+//! c=long-light i=note-whole o=note:2
+3 light sustains
+//! c=short-light i=staccato o=note:3
+4 light staccato
+
+//! spacer=1
+
+//! c=long-dark i=note-whole o=note:4
+5 pedals (8va) sustains
+//! c=short-dark i=staccato o=note:5
+6 pedals (8va) staccato
+//! c=short-dark i=staccato o=note:6
+7 pedals staccato
+//! c=long i=note-whole o=note:7
+8 pedals soft sustains
+
+//============================================================================
+// Helix
+//============================================================================
+
+//----------------------------------------------------------------------------
+//! g="Orchestral Tools/SINEfactory" n="Helix"
+Bank 0 8 Helix
+
+//! c=long i=note-whole o=@1
+1 sustains
+//! c=short i=spiccato o=@2
+2 spiccato
+
+//============================================================================
 // BBCSO
 // Originally via Stephan Roemer (https://github.com/jtackaberry/reaticulate/issues/85)
 // Motified by Jonathan Romano
@@ -135,7 +179,7 @@ Bank 26 27 BBC Violins 1 Leader
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long-light i=con-sord o=note@17@1:2
 7 long cs
@@ -166,14 +210,13 @@ Bank 26 27 BBC Violins 1 Leader
 //! c=long i=marcato o=note@17@1:15
 9 marcato
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Strings" n="BBC Violins 1"
 Bank 26 28 BBC Violins 1
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long-light i=con-sord o=note@17@1:2
 7 long cs
@@ -211,8 +254,6 @@ Bank 26 28 BBC Violins 1
 18 long sul pont
 //! c=short-light i=staccato-con-sord o=note@17@2:19
 47 spiccato cs
-
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Strings" n="BBC Violins 2 Leader"
@@ -254,14 +295,13 @@ Bank 26 35 BBC Basses Leader
 //! clone="Spitfire/BBC Symphonic Orchestra/Strings/BBC Violins 1"
 Bank 26 36 BBC Basses
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Brass" n="BBC Horn"
 Bank 26 37 BBC - Horn
 
 //! c=legato i=legato o=note@17@1:0
 20 legato (extended)
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=short i=spiccato o=note@17@2:2
 41 staccatissimo
@@ -279,7 +319,7 @@ Bank 26 37 BBC - Horn
 71 trill M2
 //! c=long i=trill-min2 o=note@17@1:9
 70 trill m2
-//! c=long i=note@17-whole o=note@17@1:10
+//! c=long i=note-whole o=note@17@1:10
 81 long (muted)
 //! c=short i=spiccato o=note@17@2:11
 82 staccatissimo (muted)
@@ -292,7 +332,7 @@ Bank 26 38 BBC - Horns a4
 
 //! c=legato i=legato o=note@17@1:0
 20 legato (extended)
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=short i=spiccato o=note@17@2:2
 41 staccatissimo
@@ -310,13 +350,12 @@ Bank 26 38 BBC - Horns a4
 71 trill M2
 //! c=long i=trill-min2 o=note@17@1:9
 70 trill m2
-//! c=long i=note@17-whole o=note@17@1:10
+//! c=long i=note-whole o=note@17@1:10
 81 long (muted)
 //! c=short i=spiccato o=note@17@2:11
 82 staccatissimo (muted)
 //! c=short i=marcato-quarter o=note@17@2:12
 83 marcato(muted)
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Brass" n="BBC Trumpet"
@@ -334,7 +373,7 @@ Bank 26 41 BBC - Tenor Trombone
 
 //! c=legato i=legato o=note@17@1:0
 20 legato (extended)
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=short i=spiccato o=note@17@2:2
 41 staccatissimo
@@ -348,7 +387,7 @@ Bank 26 41 BBC - Tenor Trombone
 11 flutter
 //! c=long i=multitongued o=note@17@2:7
 75 multitongued
-//! c=long i=note@17-whole o=note@17@1:8
+//! c=long i=note-whole o=note@17@1:8
 81 long (muted)
 //! c=short i=spiccato o=note@17@2:9
 82 staccatissimo (muted)
@@ -371,7 +410,7 @@ Bank 26 44 BBC - Tuba
 
 //! c=legato i=legato o=note@17@1:0
 20 legato (extended)
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=short i=spiccato o=note@17@2:2
 41 staccatissimo
@@ -392,7 +431,7 @@ Bank 26 45 BBC - Contrabass Tuba
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=short i=spiccato o=note@17@2:2
 41 staccatissimo
@@ -408,14 +447,13 @@ Bank 26 45 BBC - Contrabass Tuba
 //! clone="Spitfire/BBC Symphonic Orchestra/Brass/BBC Contrabass Tuba"
 Bank 26 46 BBC - Contrabass Trombone
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Flute"
 Bank 26 47 BBC - Flute
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -432,12 +470,10 @@ Bank 26 47 BBC - Flute
 //! c=long i=multitongued o=note@17@1:8
 75 multitongued
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Flutes a3"
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Flute"
 Bank 26 48 BBC - Flutes a3
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Piccolo Flute"
@@ -445,7 +481,7 @@ Bank 26 49 BBC - Piccolo Flute
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -466,14 +502,13 @@ Bank 26 49 BBC - Piccolo Flute
 //! c=short-dark i=fall o=note@17@1:10
 101 falls
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Oboe"
 Bank 26 50 BBC - Oboe
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -488,13 +523,10 @@ Bank 26 50 BBC - Oboe
 //! c=long i=multitongued o=note@17@1:7
 75 multitongued
 
-
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Oboes a3"
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Oboe"
 Bank 26 51 BBC - Oboes a3
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Clarinet"
@@ -506,14 +538,13 @@ Bank 26 52 BBC - Clarinet
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Clarinet"
 Bank 26 70 BBC - Clarinets a3
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Bassoon"
 Bank 26 53 BBC - Bassoon
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -528,12 +559,10 @@ Bank 26 53 BBC - Bassoon
 //! c=long-dark i=tremolo o=note@17@1:7
 11 flutter
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Bassoon a3"
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Bassoon"
 Bank 26 54 BBC - Bassoon a3
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Contrabass Clarinet"
@@ -541,7 +570,7 @@ Bank 26 55 BBC - Contrabass Clarinet
 
 //! c=legato i=legato o=note@17@1:0
 20 legato
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -559,12 +588,10 @@ Bank 26 55 BBC - Contrabass Clarinet
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Contrabass Clarinet"
 Bank 26 56 BBC - Contrabassoon
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Bass Clarinet"
 //! clone="Spitfire/BBC Symphonic Orchestra/Woodwinds/BBC Contrabass Clarinet"
 Bank 26 57 BBC - Bass Clarinet
-
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Cor Anglais"
@@ -575,8 +602,7 @@ Bank 26 58 BBC - Cor Anglais
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Bass Flute"
 Bank 26 59 BBC - Bass Flute
 
-
-//! c=long i=note@17-whole o=note@17@1:1
+//! c=long i=note-whole o=note@17@1:1
 1 long
 //! c=long i=trill-maj2 o=note@17@1:2
 71 trill M2
@@ -591,11 +617,9 @@ Bank 26 59 BBC - Bass Flute
 //! c=long-dark i=tremolo o=note@17@1:7
 11 flutter
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Percussion" n="BBC Untuned Percussion"
 Bank 26 60 BBC - Untuned Percussion
-
 
 //! c=short i=staccato o=note@17:0
 112 Anvil
@@ -624,22 +648,21 @@ Bank 26 60 BBC - Untuned Percussion
 //! c=short i=staccato o=note@17:12
 124 Triangle
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Percussion" n="BBC Timpani"
 Bank 26 61 BBC - Timpani
 
 //! c=short i=staccato o=note@17:0
 100 hits
-//! c=long i=note@17-whole o=note@17:1
+//! c=long i=note-whole o=note@17:1
 101 rolls
 //! c=short i=staccato o=note@17:2
 102 hits soft
-//! c=long i=note@17-whole o=note@17:3
+//! c=long i=note-whole o=note@17:3
 103 rolls soft
 //! c=short i=staccato o=note@17:4
 104 hits hotrods
-//! c=long i=note@17-whole o=note@17:5
+//! c=long i=note-whole o=note@17:5
 105 long rolls hotrods
 //! c=short i=staccato o=note@17:6
 106 hits damped
@@ -650,18 +673,17 @@ Bank 26 61 BBC - Timpani
 //! c=short i=staccato o=note@17:9
 109 hits damped soft
 
-
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Percussion" n="BBC Harp"
 Bank 26 62 BBC - Harp
 
-//! c=long i=note@17-whole o=note@17:0
+//! c=long i=note-whole o=note@17:0
 1 sustained
 //! c=short i=staccato o=note@17:1
 101 damped
 //! c=short i=staccato o=note@17:2
 102 damped medium
-//! c=long i=note@17-whole o=note@17:3
+//! c=long i=note-whole o=note@17:3
 103 bisbigliando trem
 //! c=fx i=fx o=note@17:4
 104 gliss fx
@@ -672,20 +694,20 @@ Bank 26 63 BBC - Marimba
 
 //! c=short i=staccato o=note@17:0
 100 hits
-//! c=long i=note@17-whole o=note@17:1
+//! c=long i=note-whole o=note@17:1
 101 rolls
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Percussion" n="BBC Celesta"
 Bank 26 64 BBC - Celesta
 
-//! c=long i=note@17-whole o=note@17:0
+//! c=long i=note-whole o=note@17:0
 1 sustained
 //! c=short i=staccato o=note@17:1
 101 damped
 //! c=short i=staccato o=note@17:2
 102 damped medium
-//! c=long i=note@17-whole o=note@17:3
+//! c=long i=note-whole o=note@17:3
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Percussion" n="BBC Xylophone"
@@ -693,7 +715,7 @@ Bank 26 65 BBC - Xylophone
 
 //! c=short i=staccato o=note@17:0
 100 hits
-//! c=long i=note@17-whole o=note@17:1
+//! c=long i=note-whole o=note@17:1
 101 rolls
 
 //----------------------------------------------------------------------------
@@ -707,7 +729,7 @@ Bank 26 67 BBC - Tubular Bells
 
 //! c=short i=staccato o=note@17:0
 100 hits
-//! c=long i=note@17-whole o=note@17:1
+//! c=long i=note-whole o=note@17:1
 101 rolls
 //! c=short i=staccato o=note@17:2
 106 hits damped
