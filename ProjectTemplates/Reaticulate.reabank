@@ -124,12 +124,12 @@ Bank 0 6 Olympus Effects Women
 17 Whispers
 
 //============================================================================
-// Ratio
+// Crucible
 //============================================================================
 
 //----------------------------------------------------------------------------
-//! g="Orchestral Tools/SINEfactory" n="Ratio"
-Bank 0 7 Ratio
+//! g="Orchestral Tools/SINEfactory" n="Crucible"
+Bank 0 7 Crucible
 
 //! c=long i=note-whole o=note:0
 1 full sustains
