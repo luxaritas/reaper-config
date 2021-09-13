@@ -168,6 +168,29 @@ Bank 0 8 Helix
 2 spiccato
 
 //============================================================================
+// Strand
+//============================================================================
+
+//----------------------------------------------------------------------------
+//! g="Orchestral Tools/SINEfactory" n="Strand"
+Bank 0 9 Strand
+
+//! c=long i=note-whole o=note:0
+1 single notes longs
+//! c=long i=phrase o=note:1
+2 strummed chords combined
+//! c=long i=note-whole o=note:2
+3 strummed chords longs
+//! c=short i=staccato o=note:3
+4 strummed chords shorts
+//! c=long i=phrase o=note:4
+5 strummed chords combined two-handed
+//! c=long i=note-whole o=note:5
+6 strummed chords longs two-handed
+//! c=short i=staccato o=note:6
+7 strummed chords shorts two-handed
+
+//============================================================================
 // BBCSO
 // Originally via Stephan Roemer (https://github.com/jtackaberry/reaticulate/issues/85)
 // Motified by Jonathan Romano
