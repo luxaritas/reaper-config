@@ -20,8 +20,7 @@ that have instruments pre-loaded, articulation maps configured, routing and stem
   among others. Its organization includes woodwinds, brass, strings, percussion, keys, voice, and synths.
   There is a set of mix stems (doing some rough grouping, splitting out shorts vs longs, etc),
   delivery stems (which are much less in number), and an FX bus for each delivery stem for reverb
-  (which is routed to the delivery stems, but can easily be disabled). Currently this template centers largely
-  around BBCSO core, though I've slotted in a couple of other libraries which I've acquired over time.
+  (which is routed to the delivery stems, but can easily be disabled).
   All VSTs are offlined on loading the template (easy on CPU/RAM and fast to boot), and it's designed
   to be able to easily slot in other libraries with minimal need for additional setup for routing, etc.
 - [Reaticulate.reabank](./ProjectTemplates/Reaticulate.reabank): The Reaticulate articulation map used for my template.
@@ -33,6 +32,10 @@ the SWS/S&M extension's cycle action feature. This file can be imported via the 
 - Toggle Selected FX Offline + Lock: Handy for when you want to quickly enable/disable VSTs on
   some tracks to save resources (particularly when offlining FX by default in a template),
   and have a visual indicator that it is indeed disabled.
+- Mode: All: Show all tracks, using small track heights for the first two layers of tracks and collapsed for all other tracks
+- Mode: Sources: Show only tracks under sources folder, using small track heights
+- Mode: Active: Show only tracks with items, using full track heights
+- Mode: Mix: Show only tracks under mix stems, effects, and delivery, using full track heights
 
 ## SWS Colors
 [SWS/Main.SWSColor](./SWS/Main.SWSColor) contains my primary color pallet corresponding to different instrument sections,
@@ -47,7 +50,7 @@ built with the SWS/S&M extension's track color management. This can be imported 
 
 ## MenuSets
 [MenuSets](./MenuSets) contains my custom menu layouts. These can be imported in the customize menus/toolbars dialog.
-- MainToolbar: Added offline and lock shortcut to the main toolbar
+- MainToolbar: Added shortcuts for offline and lock and modes to the main toolbar
 
 ## Toolbar Icons
 [ToolbarIcons](./ToolbarIcons) contains icons I've created for my custom toolbars. This is laid out just like
