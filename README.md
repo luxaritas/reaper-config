@@ -12,6 +12,9 @@ personal REAPER setup (both for my own records and in case someone else finds it
 - [Reaticulate](https://reaticulate.com/)
 - [js_ReaScriptAPI](https://forum.cockos.com/showthread.php?t=212174) (for Reaticulate)
 
+## JSFX
+- [MIDI Note Filter - TW](https://stash.reaper.fm/v/35962/TW_MIDI_NoteFilter.jsfx)
+
 ## Project Templates
 [ProjectTemplates](./ProjectTemplates) contains my templates I use when starting up a new project so
 that have instruments pre-loaded, articulation maps configured, routing and stemming handled, etc.
