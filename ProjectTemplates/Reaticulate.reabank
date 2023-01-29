@@ -351,7 +351,7 @@ Bank * * BBC - Horn
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Brass" n="BBC Horns a4"
-//! id=11111111-2309-8c11-d995-b4887e3146af
+//! id=11111111-2309-8c11-d995-bm4887e3146af
 Bank * * BBC - Horns a4
 
 //! c=legato i=legato o=note@17@1:0
@@ -478,6 +478,22 @@ Bank * * BBC - Contrabass Tuba
 //! clone="Spitfire/BBC Symphonic Orchestra/Brass/BBC Contrabass Tuba"
 //! id=11111111-7504-2ae2-bf5b-fc62c36e0951
 Bank * * BBC - Contrabass Trombone
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra/Brass" n="BBC Cimbasso"
+//! id=d8de1092-9bf5-7e65-693f-43a05dfcf72d
+Bank * * BBC - Cimbasso
+
+//! c=long i=note-whole o=note@17@1:0
+1 long
+//! c=short i=spiccato o=note@17@2:1
+41 staccatissimo
+//! c=short i=marcato-quarter o=note@17@2:2
+52 marcato
+//! c=long-dark i=cuivre o=note@17@1:3
+9 long cuivre
+//! c=short i=staccato-sfz o=note@17@1:4
+54 long sfz
 
 //----------------------------------------------------------------------------
 //! g="Spitfire/BBC Symphonic Orchestra/Woodwinds" n="BBC Flute"
