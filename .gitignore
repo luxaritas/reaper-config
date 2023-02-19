@@ -2,3 +2,5 @@
 .vscode/
 *.rpp-bak
 *.RPP-bak
+yabridge-*.log
+ProjectTemplates/media
